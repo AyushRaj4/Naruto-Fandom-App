@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Sans";
+    background-color: rgb(41, 41, 41);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 0.7em 0 1.5em 0;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+input {
+    width: 20%;
+    height: 2.5em;
+    border-radius: 0.5em;
+    margin-right: 1em;
+}
+
+button {
+    width: 5%;
+    border-radius: 0.3em;
+}
+
+main {
+    width: 100%;
+    height: 510px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2.5em;
+    /* background-color: aqua; */
+}
+
+section {
+    width: 22%;
+    height: 100%;
+    border: 1px solid white;
+    background-color: rgb(28, 28, 28);
+    /* background-color: aqua; */
+}
+
+.sec-first {
+    width: 100%;
+    height: 43%;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8em;
+    /* background-color: black; */
+}
+
+.sec-div {
+    width: 100%;
+    height: 40.8%;
+    font-size: 3em;
+    margin-bottom: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+}
+
+.divcap {
+    margin-bottom: 0.9rem;
+}
+
+img {
+    width: 100%;
+    height: 95%;
+    margin-bottom: 1rem;
+}
+
+figcaption {
+    height: 5%;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+li {
+    font-size: 1rem;
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 2rem;
+    margin-bottom: 1.3rem;
+    color: wheat;
+}
+
+.below-divs {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-bottom: 0.6rem;
+    text-decoration: underline rgb(228, 98, 98);
+    color: rgb(255, 255, 0);
+    /* padding-top: 1em; */
+}
+
+p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.overflow {
+    overflow: auto; /* Add scrollbars if overflowing */
+}
+
+.not-found {
+    margin-top: 1em;
+    width: 80%;
+    height: 800px;
+}
